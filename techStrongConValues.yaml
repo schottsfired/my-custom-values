@@ -1,6 +1,6 @@
 OperationsCenter:
   # Set the HostName for the Operation Center
-  HostName: 'cbci.dbschott.com' 
+  HostName: 'quickstart.cbci.dbschott.com' 
   # Setting ServiceType to ClusterIP creates ingress
   ServiceType: ClusterIP
   Ingress:
@@ -8,5 +8,5 @@ OperationsCenter:
     ## Set this to true in order to enable TLS on the ingress record
       Enable: false 
       # Create a certificate and use it here.
-      SecretName: cbci-dbschott-com-tls
+      SecretName: quickstart-cbci-dbschott-com-tls
       Host: jenkins.cluster.local
